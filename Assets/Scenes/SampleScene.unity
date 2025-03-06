@@ -292,7 +292,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Airplane_flat
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7778739537970658003, guid: 838136d4c1884f44da26115a0278f40c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -302,6 +303,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1032296711890775795, guid: 838136d4c1884f44da26115a0278f40c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1217896646}
+    - targetCorrespondingSourceObject: {fileID: 1032296711890775795, guid: 838136d4c1884f44da26115a0278f40c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1217896647}
   m_SourcePrefab: {fileID: 100100000, guid: 838136d4c1884f44da26115a0278f40c, type: 3}
 --- !u!1 &330585543
 GameObject:
@@ -935,6 +939,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 15.427826, y: 4.45892, z: 12.12738}
   m_Center: {x: 0.05149033, y: 2.2181141, z: -1.2351156}
+--- !u!114 &1217896647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217896643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c071c37fd6c39459618b0fe1db9422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  enginePower: 20
+  liftBooster: 0.5
+  drag: 0.001
+  angularDrag: 0.001
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

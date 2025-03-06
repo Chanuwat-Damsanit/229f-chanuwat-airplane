@@ -38,7 +38,7 @@ public class Airplane : MonoBehaviour
         float roll = Input.GetAxis("Roll") * rollPower;
 
         rb.AddTorque(transform.up * yaw);
-        rb.AddTorque(transform.up * pitch);
-        rb.AddTorque(transform.up * roll);
+        rb.AddTorque(transform.right * pitch);
+        rb.AddTorque(transform.forward * roll);
     }
 }
